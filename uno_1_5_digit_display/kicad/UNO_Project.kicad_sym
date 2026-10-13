@@ -1,0 +1,330 @@
+(kicad_symbol_lib (version 20250114) (generator "kicad_symbol_editor") (symbol "UNO_R3" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 40 0) (effects (font (size 1.27 1.27))))
+(property "Value" "UNO_R3" (at 0 37.5 0) (effects (font (size 1.27 1.27))))
+(symbol "UNO_R3_0_1" (rectangle (start -25 35) (end 25 -45) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "UNO_R3_1_1"
+(pin input line (at -30.48 30.48 0) (length 5.08) (name "D10 / IN8" (effects (font (size 1.27 1.27)))) (number "D10" (effects (font (size 1.27 1.27)))))
+(pin input line (at -30.48 25.4 0) (length 5.08) (name "D11 / IN4" (effects (font (size 1.27 1.27)))) (number "D11" (effects (font (size 1.27 1.27)))))
+(pin input line (at -30.48 20.32 0) (length 5.08) (name "D12 / IN2" (effects (font (size 1.27 1.27)))) (number "D12" (effects (font (size 1.27 1.27)))))
+(pin input line (at -30.48 15.24 0) (length 5.08) (name "D13 / IN1" (effects (font (size 1.27 1.27)))) (number "D13" (effects (font (size 1.27 1.27)))))
+(pin input line (at -30.48 10.16 0) (length 5.08) (name "A5 frei" (effects (font (size 1.27 1.27)))) (number "A5" (effects (font (size 1.27 1.27)))))
+(pin output line (at -30.48 -10.16 0) (length 5.08) (name "A0 / L1" (effects (font (size 1.27 1.27)))) (number "A0" (effects (font (size 1.27 1.27)))))
+(pin output line (at -30.48 -15.24 0) (length 5.08) (name "A1 / L2" (effects (font (size 1.27 1.27)))) (number "A1" (effects (font (size 1.27 1.27)))))
+(pin output line (at -30.48 -20.32 0) (length 5.08) (name "A2 / L3" (effects (font (size 1.27 1.27)))) (number "A2" (effects (font (size 1.27 1.27)))))
+(pin output line (at -30.48 -25.4 0) (length 5.08) (name "A3 / L4" (effects (font (size 1.27 1.27)))) (number "A3" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 30.48 180) (length 5.08) (name "D9 / T" (effects (font (size 1.27 1.27)))) (number "D9" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 25.4 180) (length 5.08) (name "D8 / f" (effects (font (size 1.27 1.27)))) (number "D8" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 20.32 180) (length 5.08) (name "D7 / b" (effects (font (size 1.27 1.27)))) (number "D7" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 15.24 180) (length 5.08) (name "D6 / g" (effects (font (size 1.27 1.27)))) (number "D6" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 10.16 180) (length 5.08) (name "D5 / e" (effects (font (size 1.27 1.27)))) (number "D5" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 5.08 180) (length 5.08) (name "D4 / d" (effects (font (size 1.27 1.27)))) (number "D4" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 0.0 180) (length 5.08) (name "D3 / c" (effects (font (size 1.27 1.27)))) (number "D3" (effects (font (size 1.27 1.27)))))
+(pin output line (at 30.48 -5.08 180) (length 5.08) (name "D2 / a" (effects (font (size 1.27 1.27)))) (number "D2" (effects (font (size 1.27 1.27)))))
+(pin power_out line (at -5.08 -49.53 90) (length 5.08) (name "+5V" (effects (font (size 1.27 1.27)))) (number "5V" (effects (font (size 1.27 1.27)))))
+(pin power_out line (at 5.08 -49.53 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "GND" (effects (font (size 1.27 1.27)))))
+(pin input line (at -30.48 -35.56 0) (length 5.08) (name "A4 frei" (effects (font (size 1.27 1.27)))) (number "A4" (effects (font (size 1.27 1.27)))))
+))
+(symbol "ULN2803A" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 40 0) (effects (font (size 1.27 1.27))))
+(property "Value" "ULN2803A" (at 0 37.5 0) (effects (font (size 1.27 1.27))))
+(symbol "ULN2803A_0_1" (rectangle (start -15 35) (end 15 -15) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "ULN2803A_1_1"
+(pin input line (at -20.32 30.48 0) (length 5.08) (name "IN8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 30.48 180) (length 5.08) (name "OUT8" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+(pin input line (at -20.32 25.4 0) (length 5.08) (name "IN7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 25.4 180) (length 5.08) (name "OUT7" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+(pin input line (at -20.32 20.32 0) (length 5.08) (name "IN6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 20.32 180) (length 5.08) (name "OUT6" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+(pin input line (at -20.32 15.24 0) (length 5.08) (name "IN5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 15.24 180) (length 5.08) (name "OUT5" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+(pin input line (at -20.32 10.16 0) (length 5.08) (name "IN4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 10.16 180) (length 5.08) (name "OUT4" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+(pin input line (at -20.32 5.08 0) (length 5.08) (name "IN3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 5.08 180) (length 5.08) (name "OUT3" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+(pin input line (at -20.32 0.0 0) (length 5.08) (name "IN2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 0.0 180) (length 5.08) (name "OUT2" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+(pin input line (at -20.32 -5.08 0) (length 5.08) (name "IN1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+(pin open_collector line (at 20.32 -5.08 180) (length 5.08) (name "OUT1" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+(pin power_in line (at 0.0 -20.32 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 0.0 44.45 270) (length 5.08) (name "COM" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+))
+(symbol "Display_1_5_CA" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 40 0) (effects (font (size 1.27 1.27))))
+(property "Value" "Display_1_5_CA" (at 0 37.5 0) (effects (font (size 1.27 1.27))))
+(symbol "Display_1_5_CA_0_1" (rectangle (start -15 35) (end 15 -30) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "Display_1_5_CA_1_1"
+(pin passive line (at -20.32 30.48 0) (length 5.08) (name "T / b+c" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 25.4 0) (length 5.08) (name "f" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 20.32 0) (length 5.08) (name "b" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 15.24 0) (length 5.08) (name "g" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 10.16 0) (length 5.08) (name "e" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 5.08 0) (length 5.08) (name "d" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 0.0 0) (length 5.08) (name "c" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 -5.08 0) (length 5.08) (name "a" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 -20.32 0) (length 5.08) (name "Anode Einer" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 -25.4 0) (length 5.08) (name "Anode Zehner" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+))
+(symbol "RN_8x10k" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 35 0) (effects (font (size 1.27 1.27))))
+(property "Value" "RN_8x10k" (at 0 32.5 0) (effects (font (size 1.27 1.27))))
+(symbol "RN_8x10k_0_1" (rectangle (start -15 30) (end 15 -25) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 0 25) (xy 4 25)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 26) (end 10 24) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 25) (xy 15 25)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 20) (xy 4 20)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 21) (end 10 19) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 20) (xy 15 20)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 15) (xy 4 15)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 16) (end 10 14) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 15) (xy 15 15)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 10) (xy 4 10)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 11) (end 10 9) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 10) (xy 15 10)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 5) (xy 4 5)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 6) (end 10 4) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 5) (xy 15 5)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 0) (xy 4 0)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 1) (end 10 -1) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 0) (xy 15 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 -5) (xy 4 -5)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 -4) (end 10 -6) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 -5) (xy 15 -5)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 -10) (xy 4 -10)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 -9) (end 10 -11) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 -10) (xy 15 -10)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 25) (xy 0 -25)) (stroke (width 0.254) (type default)) (fill (type none))))
+(symbol "RN_8x10k_1_1"
+(pin passive line (at 0.0 -30.48 90) (length 5.08) (name "GND gemeinsam" (effects (font (size 1.27 1.27)))) (number "G" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 25.4 180) (length 5.08) (name "R1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 20.32 180) (length 5.08) (name "R2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 15.24 180) (length 5.08) (name "R3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 10.16 180) (length 5.08) (name "R4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 5.08 180) (length 5.08) (name "R5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 0.0 180) (length 5.08) (name "R6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 -5.08 180) (length 5.08) (name "R7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 -10.16 180) (length 5.08) (name "R8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+))
+(symbol "RN_7x220" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 35 0) (effects (font (size 1.27 1.27))))
+(property "Value" "RN_7x220" (at 0 32.5 0) (effects (font (size 1.27 1.27))))
+(symbol "RN_7x220_0_1" (rectangle (start -15 30) (end 15 -25) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 0 25) (xy 4 25)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 26) (end 10 24) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 25) (xy 15 25)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 20) (xy 4 20)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 21) (end 10 19) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 20) (xy 15 20)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 15) (xy 4 15)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 16) (end 10 14) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 15) (xy 15 15)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 10) (xy 4 10)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 11) (end 10 9) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 10) (xy 15 10)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 5) (xy 4 5)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 6) (end 10 4) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 5) (xy 15 5)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 0) (xy 4 0)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 1) (end 10 -1) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 0) (xy 15 0)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 -5) (xy 4 -5)) (stroke (width 0.254) (type default)) (fill (type none)))(rectangle (start 4 -4) (end 10 -6) (stroke (width 0.254) (type default)) (fill (type background)))(polyline (pts (xy 10 -5) (xy 15 -5)) (stroke (width 0.254) (type default)) (fill (type none)))(polyline (pts (xy 0 25) (xy 0 -25)) (stroke (width 0.254) (type default)) (fill (type none))))
+(symbol "RN_7x220_1_1"
+(pin passive line (at 0.0 -30.48 90) (length 5.08) (name "GND gemeinsam" (effects (font (size 1.27 1.27)))) (number "G" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 25.4 180) (length 5.08) (name "R1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 20.32 180) (length 5.08) (name "R2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 15.24 180) (length 5.08) (name "R3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 10.16 180) (length 5.08) (name "R4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 5.08 180) (length 5.08) (name "R5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 0.0 180) (length 5.08) (name "R6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 -5.08 180) (length 5.08) (name "R7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+))
+(symbol "Header3" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 10.08 0) (effects (font (size 1.27 1.27))))
+(property "Value" "Header3" (at 0 7.58 0) (effects (font (size 1.27 1.27))))
+(symbol "Header3_0_1" (rectangle (start -5 5.08) (end 5 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "Header3_1_1"
+(pin passive line (at 10.16 2.54 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 10.16 0.0 180) (length 5.08) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 10.16 -2.54 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+))
+(symbol "Header2" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.81 0) (effects (font (size 1.27 1.27))))
+(property "Value" "Header2" (at 0 6.3100000000000005 0) (effects (font (size 1.27 1.27))))
+(symbol "Header2_0_1" (rectangle (start -5 3.81) (end 5 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "Header2_1_1"
+(pin passive line (at 10.16 1.27 180) (length 5.08) (name "Signal" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 10.16 -1.27 180) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+))
+(symbol "KMR162" (pin_names (offset 1.0)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 25 0) (effects (font (size 1.27 1.27))))
+(property "Value" "KMR162" (at 0 22.5 0) (effects (font (size 1.27 1.27))))
+(symbol "KMR162_0_1" (rectangle (start -15 20) (end 15 -20) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "KMR162_1_1"
+(pin passive line (at -20.32 10.16 0) (length 5.08) (name "Common links" (effects (font (size 1.27 1.27)))) (number "C1" (effects (font (size 1.27 1.27)))))
+(pin passive line (at -20.32 -10.16 0) (length 5.08) (name "Common rechts" (effects (font (size 1.27 1.27)))) (number "C2" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 15.24 180) (length 5.08) (name "Bit 8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 5.08 180) (length 5.08) (name "Bit 4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 -5.08 180) (length 5.08) (name "Bit 2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 20.32 -15.24 180) (length 5.08) (name "Bit 1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+))
+(symbol "R_H" (pin_names hide) (pin_numbers hide) (in_bom yes) (on_board yes)
+(property "Reference" "R" (at 0 3 0) (effects (font (size 1.27 1.27)))) (property "Value" "220R" (at 0 -3 0) (effects (font (size 1.27 1.27))))
+(symbol "R_H_0_1" (rectangle (start -2.5 1) (end 2.5 -1) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "R_H_1_1" (pin passive line (at -7.62 0 0) (length 5.08) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+(pin passive line (at 7.62 0 180) (length 5.08) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))))
+(symbol "LED"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LED diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LED_0_1"
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))

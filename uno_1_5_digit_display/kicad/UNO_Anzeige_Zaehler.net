@@ -1,0 +1,2844 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/hagen/develop/Elektronik/2_plus_7-Segmentanzeige/uno_1_5_digit_display/kicad/UNO_Anzeige_Zaehler.kicad_sch")
+		(date "2026-10-08T19:05:20")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "UNO: 1 1/2-stellige Binaeranzeige")
+				(company)
+				(rev "1.0")
+				(date)
+				(source "UNO_Anzeige_Zaehler.kicad_sch")
+				(comment
+					(number "1")
+					(value "J1-J4 / SW1: Binaereingaenge 0-15")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "Arduino UNO R3")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "UNO_R3")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe51938e-8a2c-4520-b476-358868a8ab52")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "D10")
+						)
+						(pin
+							(num "D11")
+						)
+						(pin
+							(num "D12")
+						)
+						(pin
+							(num "D13")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "A0")
+						)
+						(pin
+							(num "A1")
+						)
+						(pin
+							(num "A2")
+						)
+						(pin
+							(num "A3")
+						)
+						(pin
+							(num "A4")
+						)
+						(pin
+							(num "5V")
+						)
+						(pin
+							(num "GND")
+						)
+						(pin
+							(num "D9")
+						)
+						(pin
+							(num "D8")
+						)
+						(pin
+							(num "D7")
+						)
+						(pin
+							(num "D6")
+						)
+						(pin
+							(num "D5")
+						)
+						(pin
+							(num "D4")
+						)
+						(pin
+							(num "D3")
+						)
+						(pin
+							(num "D2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DS1")
+			(value "1 1/2-stellig / rot / CA")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "Display_1_5_CA")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12540e4a-1894-4a9c-9e02-8e8a079c6bbe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Bit 8")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "Header3")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0d30883-5114-4652-8046-dc0d89b010af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Bit 4")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "Header3")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "37892921-fb3a-4142-914e-7f3e8d7c0fb1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Bit 2")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "Header3")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5afd3749-5ca9-4b74-8db9-19ce0d83a4dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Bit 1")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "Header3")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5e5f4d28-26f3-49e8-b0dd-6c60f80148f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "GND extern / blau")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "Header2")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dfa47537-e866-4204-bbf4-7773decf40af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "Bit 8")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d1cb6e15-44a3-46cc-8d25-877bfbc4e459")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L2")
+			(value "Bit 4")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "208e8463-4f13-4113-88ab-a74e52824cca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L3")
+			(value "Bit 2")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8bd783fb-096d-4360-aab3-94ecdd59258d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L4")
+			(value "Bit 1")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3034a821-ff51-48b1-a5bc-07972eab9bce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d62ad4a-77cc-4e09-ac0c-4f336f767e49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "594c8ab4-1fba-423f-9d57-19b71b34948d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22be04bd-fd73-4e10-a2bc-53cbea482dd3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "46e6025a-6e08-48c2-9653-652948eda18d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b3dc5da7-4464-418e-bfa5-d4392c85b555")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd7c09a3-f273-4182-8c9e-7b652a7dbe61")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db4b3660-14c6-499b-8454-a145654282db")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "220R")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "R_H")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22cb7c1f-2d50-4f08-96c8-4358f1acfb46")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RN1")
+			(value "8 x 10k / GND")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "RN_8x10k")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5431141e-7c83-4a67-bdbf-e993554a70a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "G")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RN2")
+			(value "7 x 220R / GND")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "RN_7x220")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "01d14145-3369-4df5-af2c-e7a397d63162")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "G")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "OTAX KMR162 / 0-F")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "KMR162")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b0438b89-85da-4e76-8c9c-86abb4c8d8eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "C1")
+						)
+						(pin
+							(num "C2")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ULN2803A / DIP-18")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "UNO_Project")
+				(part "ULN2803A")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "UNO_Anzeige_Zaehler")
+			)
+			(property
+				(name "Sheetfile")
+				(value "UNO_Anzeige_Zaehler.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "64d63d11-8a0e-4817-af38-7f50fc4ac8b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "UNO_Project")
+			(part "Display_1_5_CA")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Display_1_5_CA")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Anode_Einer")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Anode_Zehner")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "T_/_b+c")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "f")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "b")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "g")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "e")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "d")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "c")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "a")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "Header2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Header2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Signal")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "Header3")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Header3")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "KMR162")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "KMR162")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Bit_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Bit_2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Bit_4")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Bit_8")
+					(type "passive")
+				)
+				(pin
+					(num "C1")
+					(name "Common_links")
+					(type "passive")
+				)
+				(pin
+					(num "C2")
+					(name "Common_rechts")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "RN_7x220")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "RN_7x220")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "R1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "R2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "R3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "R4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "R5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "R6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "R7")
+					(type "passive")
+				)
+				(pin
+					(num "G")
+					(name "GND_gemeinsam")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "RN_8x10k")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "RN_8x10k")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "R1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "R2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "R3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "R4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "R5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "R6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "R7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "R8")
+					(type "passive")
+				)
+				(pin
+					(num "G")
+					(name "GND_gemeinsam")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "R_H")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "220R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "ULN2803A")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ULN2803A")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "IN2")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "IN3")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "IN4")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "IN5")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "IN6")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "IN7")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "IN8")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "10")
+					(name "COM")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "OUT8")
+					(type "open_collector")
+				)
+				(pin
+					(num "12")
+					(name "OUT7")
+					(type "open_collector")
+				)
+				(pin
+					(num "13")
+					(name "OUT6")
+					(type "open_collector")
+				)
+				(pin
+					(num "14")
+					(name "OUT5")
+					(type "open_collector")
+				)
+				(pin
+					(num "15")
+					(name "OUT4")
+					(type "open_collector")
+				)
+				(pin
+					(num "16")
+					(name "OUT3")
+					(type "open_collector")
+				)
+				(pin
+					(num "17")
+					(name "OUT2")
+					(type "open_collector")
+				)
+				(pin
+					(num "18")
+					(name "OUT1")
+					(type "open_collector")
+				)
+			)
+		)
+		(libpart
+			(lib "UNO_Project")
+			(part "UNO_R3")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "UNO_R3")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "5V")
+					(name "+5V")
+					(type "power_out")
+				)
+				(pin
+					(num "A0")
+					(name "A0_/_L1")
+					(type "output")
+				)
+				(pin
+					(num "A1")
+					(name "A1_/_L2")
+					(type "output")
+				)
+				(pin
+					(num "A2")
+					(name "A2_/_L3")
+					(type "output")
+				)
+				(pin
+					(num "A3")
+					(name "A3_/_L4")
+					(type "output")
+				)
+				(pin
+					(num "A4")
+					(name "A4_frei")
+					(type "input")
+				)
+				(pin
+					(num "A5")
+					(name "A5_frei")
+					(type "input")
+				)
+				(pin
+					(num "D2")
+					(name "D2_/_a")
+					(type "output")
+				)
+				(pin
+					(num "D3")
+					(name "D3_/_c")
+					(type "output")
+				)
+				(pin
+					(num "D4")
+					(name "D4_/_d")
+					(type "output")
+				)
+				(pin
+					(num "D5")
+					(name "D5_/_e")
+					(type "output")
+				)
+				(pin
+					(num "D6")
+					(name "D6_/_g")
+					(type "output")
+				)
+				(pin
+					(num "D7")
+					(name "D7_/_b")
+					(type "output")
+				)
+				(pin
+					(num "D8")
+					(name "D8_/_f")
+					(type "output")
+				)
+				(pin
+					(num "D9")
+					(name "D9_/_T")
+					(type "output")
+				)
+				(pin
+					(num "D10")
+					(name "D10_/_IN8")
+					(type "input")
+				)
+				(pin
+					(num "D11")
+					(name "D11_/_IN4")
+					(type "input")
+				)
+				(pin
+					(num "D12")
+					(name "D12_/_IN2")
+					(type "input")
+				)
+				(pin
+					(num "D13")
+					(name "D13_/_IN1")
+					(type "input")
+				)
+				(pin
+					(num "GND")
+					(name "GND")
+					(type "power_out")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "UNO_Project")
+			(uri "${KIPRJMOD}/UNO_Project.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/+5V")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "5V")
+				(pinfunction "+5V_5V")
+				(pintype "power_out")
+			)
+			(node
+				(ref "DS1")
+				(pin "1")
+				(pinfunction "Anode_Einer_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "DS1")
+				(pin "2")
+				(pinfunction "Anode_Zehner_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "C1")
+				(pinfunction "Common_links_C1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "C2")
+				(pinfunction "Common_rechts_C2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "GND")
+				(pinfunction "GND_GND")
+				(pintype "power_out")
+			)
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Signal_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN1")
+				(pin "G")
+				(pinfunction "GND_gemeinsam_G")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN2")
+				(pin "G")
+				(pinfunction "GND_gemeinsam_G")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "GND_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/IN1")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D13")
+				(pinfunction "D13_/_IN1_D13")
+				(pintype "input")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN1")
+				(pin "8")
+				(pinfunction "R8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "Bit_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/IN2")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D12")
+				(pinfunction "D12_/_IN2_D12")
+				(pintype "input")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN1")
+				(pin "6")
+				(pinfunction "R6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "Bit_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/IN4")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D11")
+				(pinfunction "D11_/_IN4_D11")
+				(pintype "input")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN1")
+				(pin "4")
+				(pinfunction "R4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "4")
+				(pinfunction "Bit_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/IN8")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D10")
+				(pinfunction "D10_/_IN8_D10")
+				(pintype "input")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN1")
+				(pin "2")
+				(pinfunction "R2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "8")
+				(pinfunction "Bit_8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/LED1_A")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "A0")
+				(pinfunction "A0_/_L1_A0")
+				(pintype "output")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/LED2_A")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "A1")
+				(pinfunction "A1_/_L2_A1")
+				(pintype "output")
+			)
+			(node
+				(ref "L2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/LED3_A")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "A2")
+				(pinfunction "A2_/_L3_A2")
+				(pintype "output")
+			)
+			(node
+				(ref "L3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/LED4_A")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "A3")
+				(pinfunction "A3_/_L4_A3")
+				(pintype "output")
+			)
+			(node
+				(ref "L4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(A1-D2_{slash}_a)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D2")
+				(pinfunction "D2_/_a_D2")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "IN1_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(A1-D3_{slash}_c)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D3")
+				(pinfunction "D3_/_c_D3")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "IN2_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(A1-D4_{slash}_d)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D4")
+				(pinfunction "D4_/_d_D4")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "IN3_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(A1-D5_{slash}_e)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D5")
+				(pinfunction "D5_/_e_D5")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "IN4_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "Net-(A1-D6_{slash}_g)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D6")
+				(pinfunction "D6_/_g_D6")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "IN5_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "Net-(A1-D7_{slash}_b)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D7")
+				(pinfunction "D7_/_b_D7")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "IN6_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "Net-(A1-D8_{slash}_f)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D8")
+				(pinfunction "D8_/_f_D8")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "IN7_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "Net-(A1-D9_{slash}_T)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "D9")
+				(pinfunction "D9_/_T_D9")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "IN8_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(DS1-T_{slash}_b+c)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "3")
+				(pinfunction "T_/_b+c_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(DS1-a)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "10")
+				(pinfunction "a_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(DS1-b)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "5")
+				(pinfunction "b_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "Net-(DS1-c)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "9")
+				(pinfunction "c_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(DS1-d)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "8")
+				(pinfunction "d_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(DS1-e)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "7")
+				(pinfunction "e_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(DS1-f)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "4")
+				(pinfunction "f_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(DS1-g)")
+			(class "Default")
+			(node
+				(ref "DS1")
+				(pin "6")
+				(pinfunction "g_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(L1-K)")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN2")
+				(pin "1")
+				(pinfunction "R1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(L2-K)")
+			(class "Default")
+			(node
+				(ref "L2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN2")
+				(pin "3")
+				(pinfunction "R3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(L3-K)")
+			(class "Default")
+			(node
+				(ref "L3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN2")
+				(pin "5")
+				(pinfunction "R5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(L4-K)")
+			(class "Default")
+			(node
+				(ref "L4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN2")
+				(pin "7")
+				(pinfunction "R7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(U1-OUT1)")
+			(class "Default")
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "OUT1_18")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(U1-OUT2)")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "OUT2_17")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(U1-OUT3)")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "OUT3_16")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(U1-OUT4)")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "OUT4_15")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(U1-OUT5)")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "OUT5_14")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(U1-OUT6)")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "OUT6_13")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(U1-OUT7)")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "OUT7_12")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(U1-OUT8)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "OUT8_11")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(A1-A4_frei-PadA4)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "A4")
+				(pinfunction "A4_frei_A4")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(A1-A5_frei-PadA5)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "A5")
+				(pinfunction "A5_frei_A5")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(RN1-R1-Pad1)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "1")
+				(pinfunction "R1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(RN1-R3-Pad3)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "3")
+				(pinfunction "R3_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(RN1-R5-Pad5)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "5")
+				(pinfunction "R5_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(RN1-R7-Pad7)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "7")
+				(pinfunction "R7_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(RN2-R2-Pad2)")
+			(class "Default")
+			(node
+				(ref "RN2")
+				(pin "2")
+				(pinfunction "R2_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(RN2-R4-Pad4)")
+			(class "Default")
+			(node
+				(ref "RN2")
+				(pin "4")
+				(pinfunction "R4_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(RN2-R6-Pad6)")
+			(class "Default")
+			(node
+				(ref "RN2")
+				(pin "6")
+				(pinfunction "R6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(U1-COM-Pad10)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "COM_10")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

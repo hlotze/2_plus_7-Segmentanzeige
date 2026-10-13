@@ -1,0 +1,57 @@
+verdrahtung_1_eingaenge: J1.1 → RN1.2
+verdrahtung_1_eingaenge: J1.1 → J1.2 → J1.3
+verdrahtung_1_eingaenge: J1.1 → D10
+verdrahtung_1_eingaenge: J2.1 → RN1.4
+verdrahtung_1_eingaenge: J2.1 → J2.2 → J2.3
+verdrahtung_1_eingaenge: J2.1 → D11
+verdrahtung_1_eingaenge: J3.1 → RN1.6
+verdrahtung_1_eingaenge: J3.1 → J3.2 → J3.3
+verdrahtung_1_eingaenge: J3.1 → D12
+verdrahtung_1_eingaenge: J4.1 → RN1.8
+verdrahtung_1_eingaenge: J4.1 → J4.2 → J4.3
+verdrahtung_1_eingaenge: J4.1 → D13
+verdrahtung_1_eingaenge: RN1.G → UNO.GND
+verdrahtung_1_eingaenge: J7.1 → J7.2
+verdrahtung_1_eingaenge: J7.2 → RN1.G / UNO.GND
+verdrahtung_2_leds: A0 → L1.A
+verdrahtung_2_leds: L1.K → RN2.1
+verdrahtung_2_leds: A1 → L2.A
+verdrahtung_2_leds: L2.K → RN2.3
+verdrahtung_2_leds: A2 → L3.A
+verdrahtung_2_leds: L3.K → RN2.5
+verdrahtung_2_leds: A3 → L4.A
+verdrahtung_2_leds: L4.K → RN2.7
+verdrahtung_2_leds: RN2.G → UNO.GND
+verdrahtung_3_uln: D2 → U1.1
+verdrahtung_3_uln: D3 → U1.2
+verdrahtung_3_uln: D4 → U1.3
+verdrahtung_3_uln: D5 → U1.4
+verdrahtung_3_uln: D6 → U1.5
+verdrahtung_3_uln: D7 → U1.6
+verdrahtung_3_uln: D8 → U1.7
+verdrahtung_3_uln: D9 → U1.8
+verdrahtung_3_uln: U1.9 → UNO.GND
+verdrahtung_4_anzeige: U1.11 → R1.1
+verdrahtung_4_anzeige: R1.2 → Display.3
+verdrahtung_4_anzeige: U1.12 → R2.1
+verdrahtung_4_anzeige: R2.2 → Display.4
+verdrahtung_4_anzeige: U1.13 → R3.1
+verdrahtung_4_anzeige: R3.2 → Display.5
+verdrahtung_4_anzeige: U1.14 → R4.1
+verdrahtung_4_anzeige: R4.2 → Display.6
+verdrahtung_4_anzeige: U1.15 → R5.1
+verdrahtung_4_anzeige: R5.2 → Display.7
+verdrahtung_4_anzeige: U1.16 → R6.1
+verdrahtung_4_anzeige: R6.2 → Display.8
+verdrahtung_4_anzeige: U1.17 → R7.1
+verdrahtung_4_anzeige: R7.2 → Display.9
+verdrahtung_4_anzeige: U1.18 → R8.1
+verdrahtung_4_anzeige: R8.2 → Display.10
+verdrahtung_4_anzeige: UNO.5V → Display.1
+verdrahtung_4_anzeige: Display.1 → Display.2
+verdrahtung_5_codierschalter: SW1.Bit1 → J4.3
+verdrahtung_5_codierschalter: SW1.Bit2 → J3.3
+verdrahtung_5_codierschalter: SW1.Bit4 → J2.3
+verdrahtung_5_codierschalter: SW1.Bit8 → J1.3
+verdrahtung_5_codierschalter: UNO.5V → SW1.C links
+verdrahtung_5_codierschalter: SW1.C links → SW1.C rechts
